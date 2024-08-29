@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@900,100;1,100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Register With E-mail</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Login With Email & Password</span>
+                <input type="email" class="eMail" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter Password">
+                <a href="#" class="FP">Forget Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <p>Sign In With ID & Password</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <p>Create a New Account</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>   
+</body>
+</html>
